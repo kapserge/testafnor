@@ -17,4 +17,4 @@ def run():
                             FILIERE=row[3],ETAPE=row[4],
                             VERLING=row[5],FORMAT=row[6]
                             )
-                #Obf.save()
+                Obf.save()
