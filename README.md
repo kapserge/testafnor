@@ -5,15 +5,15 @@ $ git clone https://github.com/kapserge/testafnor.git
 
 $ cd testafnor
 ```
-chargement des données dans une base de données SQLite:
+chargement  des données csv dans une base de données SQLite:
 ```sh
 $ python manage.py runscript load_pixar
 ```
-execution application(view API):
+execution l'application(view API):
 ```sh
 $ python manage.py runserver
 ```
-execution test unitaire(view API):
+execution du test unitaire(view API):
 ```sh
 $ python manage.py test
 ```
